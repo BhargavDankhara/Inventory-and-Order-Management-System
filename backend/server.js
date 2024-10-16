@@ -10,6 +10,7 @@ import productRoute from "./routes/product.route.js";
 import cartRoute from "./routes/product.route.js";
 import couponRoutes from "./routes/coupon.route.js";
 import paymentRoute from "./routes/payment.route.js";
+import analyticsRoute from "./routes/analytics.route.js";
 
 const app = express();
 const PORT = ENV_VARS.PORT;
@@ -22,6 +23,7 @@ app.use("/api/products", productRoute);
 app.use("/api/cart", cartRoute);
 app.use("/api/coupons", couponRoutes);
 app.use("/api/payments", paymentRoute);
+app.use("/api/analytics", analyticsRoute);
 
 app.listen(PORT, () => {
   console.log("Server is running on http://localhost:" + PORT);
