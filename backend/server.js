@@ -7,7 +7,7 @@ import { connectDB } from "./config/db.js";
 
 import authRoute from "./routes/auth.route.js";
 import productRoute from "./routes/product.route.js";
-import cartRoute from "./routes/product.route.js";
+import cartRoute from "./routes/cart.route.js";
 import couponRoutes from "./routes/coupon.route.js";
 import paymentRoute from "./routes/payment.route.js";
 import analyticsRoute from "./routes/analytics.route.js";
@@ -15,7 +15,7 @@ import analyticsRoute from "./routes/analytics.route.js";
 const app = express();
 const PORT = ENV_VARS.PORT;
 
-app.use(express.json());
+app.use(express.json({ limit: "10mb" }));
 app.use(cookieParser());
 
 app.use("/api/auth", authRoute);
