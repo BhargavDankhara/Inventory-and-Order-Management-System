@@ -46,8 +46,8 @@ https://inventory-and-order-management-system-3fse.onrender.com
 
 ## .env
 
--- MONGO_URI= your_url
--- PORT=5000
+- MONGO_URI= your_url
+- PORT=5000
 -- UPSTASH_REDIS_URL= your_url
 -- ACCESS_TOKEN_SECRET= your_secrey
 -- REFRESH_TOKEN_SECRET= your_secret
