@@ -62,7 +62,7 @@ CLIENT_URL= your_deployed_url || localhoast
 
 ## DEMO
 
-https://github.com/user-attachments/assets/a4955af0-209c-4ecb-b94a-c89e869dbd63
+
 
 
 
