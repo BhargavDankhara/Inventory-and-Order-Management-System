@@ -39,30 +39,32 @@ This project is a full-stack application designed for customers and admins to ma
 
 ---
 
-
-
 ## Deployment
 https://inventory-and-order-management-system-3fse.onrender.com
 
 ---
 
-## API Documentation
+## .env
 
-### Authentication
-- **POST** `/api/auth/login`: Logs in a user and returns a JWT.
-- **POST** `/api/auth/signup`: Registers a new user.
-
-### Product Management
-- **GET** `/api/products`: Fetch all products.
-- **POST** `/api/products`: Create a new product (admin only).
-- **PUT** `/api/products/:id`: Update a product (admin only).
-- **DELETE** `/api/products/:id`: Delete a product (admin only).
-
-### Order Management
-- **POST** `/api/orders`: Place a new order (customer only).
-- **GET** `/api/orders`: Get all orders (admin only).
-- **GET** `/api/orders/:id`: Get details of a specific order.
+MONGO_URI= your_url
+PORT=5000
+UPSTASH_REDIS_URL= your_url
+ACCESS_TOKEN_SECRET= your_secrey
+REFRESH_TOKEN_SECRET= your_secret
+NODE_ENV=
+CLOUDINARY_CLOUD_NAME= your_cloud_name
+CLOUDINARY_API_KEY= your_api
+CLOUDINARY_API_SECRET= your_secret
+STRIPE_SECRET_KEY= your_key
+CLIENT_URL= your_deployed_url || localhoast
 
 ---
+
+## DEMO
+
+https://github.com/user-attachments/assets/a4955af0-209c-4ecb-b94a-c89e869dbd63
+
+
+
 
 
