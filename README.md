@@ -48,15 +48,15 @@ https://inventory-and-order-management-system-3fse.onrender.com
 
 - MONGO_URI= your_url
 - PORT=5000
--- UPSTASH_REDIS_URL= your_url
--- ACCESS_TOKEN_SECRET= your_secrey
--- REFRESH_TOKEN_SECRET= your_secret
--- NODE_ENV=
--- CLOUDINARY_CLOUD_NAME= your_cloud_name
--- CLOUDINARY_API_KEY= your_api
--- CLOUDINARY_API_SECRET= your_secret
--- STRIPE_SECRET_KEY= your_key
--- CLIENT_URL= your_deployed_url || localhoast
+- UPSTASH_REDIS_URL= your_url
+- ACCESS_TOKEN_SECRET= your_secrey
+- REFRESH_TOKEN_SECRET= your_secret
+- NODE_ENV=
+- CLOUDINARY_CLOUD_NAME= your_cloud_name
+- CLOUDINARY_API_KEY= your_api
+- CLOUDINARY_API_SECRET= your_secret
+- STRIPE_SECRET_KEY= your_key
+- CLIENT_URL= your_deployed_url || localhoast
 
 ---
 
